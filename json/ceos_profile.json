@@ -1,0 +1,18 @@
+{
+    "ko": [
+        {
+            "name":"두민석",
+            "education":"학력",
+            "education_01":"2023년 8월 ~ 2025년 12월 (예정) 메릴랜드 미술대학교, 편입",
+            "education_02":"2021년 8월 ~ 2023년 5월 링링예술대학교, 자퇴"
+        }
+    ],
+    "en":[
+       {
+          "name":"Minseok Doo",
+          "education":"Education",
+          "education_01":"2023년 8월 ~ December 2025 (예정) Maryland Institute College of Art, transfer",
+          "education_02":"2021년 8월 ~ May 2023 Ringling College of Art and Design, withdraw"
+       }
+    ]
+ }

@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    margin-top: 12vw;
+
+    background-image: url('/img/Background.jpg');
+    background-size: auto;
+    color: white;
+
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+
+    padding: 1%;
+
+    background-color: white;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header common setting */
+.libramentum_logo_text {
+    margin: 0;
+    font-weight: 500;
+}
+.menu_column h2, .menu_column h3 {
+    margin: 0;
+
+    color: black;
+}
+
+/* navigation common setting */
+nav {
+    display: flex;
+}
+nav h2:hover, nav h3:hover {
+    color: purple;
+}
+
+footer {
+    color: white;
+    text-align:center;
+}
+
+@media screen and (min-width: 1080px) {
+    /* header general setting */
+    .main_logo_set {
+        display: flex;
+        align-items: center;
+        gap: 0.5vw;
+    }
+
+    .libramentum_logo {
+        width: 1.5vw;
+        height: auto;
+    }
+
+    .libramentum_logo_text {
+        font-size: 0.65vw;
+        color:black;
+    }
+
+    .menu_column {
+        padding-right: 6.5vw;
+        padding-top: 0.5vw;
+
+        text-align: center;
+    }
+
+    .menu_column h2 {
+        font-size: 1vw;
+        padding-bottom: 1vw;
+    }
+
+    .menu_column h3 {
+        font-size: 0.83vw;
+        font-weight: 300;
+
+        padding-top: 0.5vw;
+    }
+
+    .lang_button {
+        width: auto;
+        height: 2vw;
+
+        font-size: 1vw;
+        font-weight: 400;
+
+        background-color:transparent;
+
+        margin-top: 2vw;
+
+        border: none;
+    }
+
+    /* page article, title body setting */
+    .main_page_article{
+        padding: 1%;
+        text-align: center;
+    }
+
+    .page_title {
+        font-size: 1.4vw;
+        font-weight: 500;
+
+    }
+
+    .page_body {
+        font-size: 1vw;
+        font-weight: 300;
+    }
+
+    iframe {
+        width: calc(16vw * 2.5);
+        height: calc(9vw * 2.5);
+        padding: 1vw;
+    }
+
+    /* other logoes setting */
+    .logo_set {
+        padding-left: 1vw;
+        align-items: center;
+    }
+
+    .youtube_logo {
+        width: 2vw;
+        height: auto;
+    }
+
+    .melon_logo {
+        width: 1.4vw;
+        height: auto;
+    }
+
+    .x_logo {
+        width: 1.4vw;
+        height: auto;
+    }
+
+    footer {
+        font-size: 0.7vw;
+        font-weight: 300;
+
+        margin-top: 5vw;
+    }
+}
+
+@media screen and (max-width: 1079px) {
+    /* header general setting */
+    .main_logo_set {
+        display: flex;
+        align-items: center;
+        gap: 0.5vw;
+    }
+    
+    .libramentum_logo {
+        width: 4.5vw;
+        height: auto;
+    }
+    
+    .libramentum_logo_text {
+        display: none;
+    }
+
+    .lang_button {
+        width: auto;
+        height: 2vw;
+
+        font-size: 2vw;
+        font-weight: 300;
+
+        color: black;
+
+        background-color:transparent;
+
+        margin-top: 1vw;
+        margin-right: 1vw;
+        padding: 0%;
+    
+        border: none;
+    }
+
+    .button_set {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .menu_column {
+        padding-right: 3.5vw;
+
+        text-align: center;
+    }
+    
+    .menu_column h2 {
+        font-size: 2.5vw;
+        margin-top: 1vw;
+        padding-bottom: 1vw;
+    }
+    
+    .menu_column h3 {
+        display: none;
+    }
+
+    /* page article, title body setting */
+    .main_page_article{
+        padding: 1%;
+
+        text-align: center;
+    }
+
+    .page_title {
+        font-size: 3.4vw;
+        font-weight: 500;
+
+    }
+
+    .page_body {
+        font-size: 1.9vw;
+        font-weight: 300;
+    }
+
+        iframe {
+            width: calc(100vw - 4vw); /* 뷰포트 너비의 100%에서 패딩값 제외 */
+            height: calc((100vw - 4vw) * 9 / 16); /* 16:9 비율 유지 */
+        
+            padding: 2vw;
+        }
+        
+        /* other logoes setting */
+        .logo_set {
+            padding-left: 1vw;
+            align-items: center;
+        }
+
+        .youtube_logo {
+            width: 2vw;
+            height: auto;
+        }
+
+        .melon_logo {
+            width: 1.4vw;
+            height: auto;
+        }
+
+        .x_logo {
+            width: 1.4vw;
+            height: auto;
+        }
+
+        footer {
+            font-size: 1.5vw;
+            font-weight: 300;
+        }
+}
