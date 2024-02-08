@@ -2,7 +2,9 @@ var socket = io();
 var currentLang = 'ko';
 
 document.addEventListener('DOMContentLoaded', function () {
-    var ids = ['index', 'about', 'CEO_profile', 'mission', 'contact_us', 'artists_notice', 'companys_notice', 'creators', 'profile', 'career', 'agency', 'production', 'notice', 'IR', 'shop'];
+    var ids = ['index', 'about', 'CEO_profile', 'mission', 'contact_us', 'artists_notice', 
+    'companys_notice', 'creators', 'profile', 'career', 'agency', 'production', 'notice', 'IR', 'shop'];
+    
     ids.forEach(function(id) {
         var element = document.getElementById(id);
         if (element) {
