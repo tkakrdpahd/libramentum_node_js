@@ -12,6 +12,9 @@
     .career_detail_article h2 {
         font-size: 2vw;
         font-weight: 500;
+        padding-bottom: 1vw;
+
+        border-bottom: 3px solid;
     }
     .career_detail_article h3 {
         font-size: 0.85vw;

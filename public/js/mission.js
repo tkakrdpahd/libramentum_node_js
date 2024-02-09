@@ -30,7 +30,7 @@ function updateLanguageButtonStyles() {
 }
 
 function readAndWrite() {
-    fetch("../json/about.json") // Corrected path to fetch the JSON file
+    fetch("../json/mission.json") // Corrected path to fetch the JSON file
         .then(response => response.json()) // Convert the response to JSON
         .then(json => {
             const language = localStorage.getItem("language");

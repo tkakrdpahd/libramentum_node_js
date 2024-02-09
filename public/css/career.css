@@ -3,6 +3,10 @@
         display: flex;
         justify-content: center;
         align-items: top;
+
+        display: grid;
+        grid-auto-flow: column;
+        grid-column-gap: 10vw;
     }
 
     .result_option_01 {
@@ -31,7 +35,7 @@
 
     .career_result h3 {
 
-        width: 20vw;
+        width: 15vw;
         height: auto;
 
         font-size: 0.85vw;
