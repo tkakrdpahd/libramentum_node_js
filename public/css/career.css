@@ -1,32 +1,8 @@
 @media screen and (min-width: 1080px) {
     .career_set {
         display: flex;
-        justify-content: top;
+        justify-content: center;
         align-items: top;
-    }
-
-    .career_filters {
-        width: 20vw;
-        height: 35vw;
-
-        margin: 2vw;
-        margin-right: 5.5vw;
-
-        background-color: rgb(220, 220, 220);
-        color: black;
-
-    }
-    
-    .career_filters h2 {
-        margin: 1vw;
-    }
-
-    .career_filters h3 {
-        display: flex;
-        align-items: center; /* 플랙스 아이템 정렬 */
-
-        margin: 0;
-        margin-left: 2vw;
     }
 
     .result_option_01 {

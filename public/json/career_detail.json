@@ -1,0 +1,146 @@
+{
+    "ko": [
+        {
+            "organization": "Agency",
+            "idx": "001",
+            "title":"매니저",
+            "career_page_article_body01":"스트리머 매니저를 모집합니다.",
+            "career_page_article_body02":"기타조건: 없음, <br><br>정규직, 4대보험 제공, 연봉 세전 1,680만원"
+        },
+        {
+            "organization": "Agency",
+            "idx": "002",
+            "title":"유튜브 편집자",
+            "career_page_article_body01":"유튜브 편집자를 모집합니다.<br>",
+            "career_page_article_body02":"요구조건: Adobe Premiere, After efects를 주 틀로 사용하는 자, 포트폴리오 제출 필수<br><br>연봉 세전 3,200만원, 4대보험 가입, 겸업금지 계약 작성 필수"
+        },
+        {
+            "organization": "Agency",
+            "idx": "003",
+            "title":"라이버 (버튜버)",
+            "career_page_article_body01":"버추얼 스트리머 라이버를 모집합니다.<br>",
+            "career_page_article_body02":"요구조건: <br><br>계약형태: 전속계약<br><br>3D 오지리널 캐릭터, 방음부스 시공비 (300만원), 법률 및 회계지원"
+        },
+        {
+            "organization": "Production",
+            "idx": "001",
+            "title":"캐릭터 디자이너",
+            "career_page_article_body01":"캐릭터 원화가를 모집합니다.<br>",
+            "career_page_article_body02":"요구조건: 미술전문학사 또는 이와 동등한 학력<br><br>임금 300만원 총 참여기간 3개월" 
+        },
+        {
+            "organization": "Production",
+            "idx": "002",
+            "title":"일러스트레이터 (캐릭터)",
+            "career_page_article_body01":"캐릭터 원화가를 모집합니다.<br>",
+            "career_page_article_body02":"요구조건: 미술전문학사 또는 이와 동등한 학력<br><br>임금 300만원 총 참여기간 3개월" 
+        },
+        {
+            "organization": "Production",
+            "idx": "003",
+            "title":"일러스트레이터 (배경)",
+            "career_page_article_body01":"캐릭터 원화가를 모집합니다.<br>",
+            "career_page_article_body02":"요구조건: 미술전문학사 또는 이와 동등한 학력<br><br>월급 400만원 총 참여기간 6개월" 
+        },
+        {
+            "organization": "Production",
+            "idx": "004",
+            "title":"테크니컬 아티스트 (모델링 & 텍스쳐링)",
+            "career_page_article_body01":"캐릭터 원화가를 모집합니다.<br>",
+            "career_page_article_body02":"요구조건: 미술전문학사 또는 이와 동등한 학력<br><br>월급 400만원 총 참여기간 6개월" 
+        },
+        {
+            "organization": "Production",
+            "idx": "005",
+            "title":"테크니컬 아티스트 (리거 & 에니메이터)",
+            "career_page_article_body01":"캐릭터 원화가를 모집합니다.<br>",
+            "career_page_article_body02":"요구조건: 미술전문학사 또는 이와 동등한 학력<br><br>월급 600만원 총 참여기간 3개월" 
+        },
+        {
+            "organization": "Production",
+            "idx": "006",
+            "title":"테크니컬 아티스트 (레벨디자이너)",
+            "career_page_article_body01":"게임 레벨디자이너를 모집합니다.<br>",
+            "career_page_article_body02":"요구조건: BS in Game Design, BFA in Game Design, BFA in Interactive Art 또는 이와 동등한 학력 & Unreal Engine 5.3 을 다루는 자<br><br>임금 600만원 총 참여기간 3개월" 
+        },
+        {
+            "organization": "Production",
+            "idx": "007",
+            "title":"작사가",
+            "career_page_article_body01":"게임 레벨디자이너를 모집합니다.<br>",
+            "career_page_article_body02":"요구조건: BS in Game Design, BFA in Game Design, BFA in Interactive Art 또는 이와 동등한 학력 & Unreal Engine 5.3 을 다루는 자<br><br>임금 600만원 총 참여기간 3개월" 
+        }
+    ],
+    "en":[
+        {
+            "organization": "Agency",
+            "idx": "001",
+            "title":"Manager",
+            "career_page_article_body01":"스트리머 매니저를 모집합니다.",
+            "career_page_article_body02":"Job requirment: N/A, Annual Sallary 16,800,000 KRW (12,000 USD)"
+        },
+        {
+            "organization": "Agency",
+            "idx": "002",
+            "title":"YouTube Editor",
+            "career_page_article_body01":"유튜브 편집자를 모집합니다.<br>",
+            "career_page_article_body02":"요구조건: Adobe Premiere, After efects를 주 틀로 사용하는 자, 포트폴리오 제출 필수<br><br>연봉 세전 3,200만원, 4대보험 가입, 겸업금지 계약 작성 필수"
+        },
+        {
+            "organization": "Agency",
+            "idx": "003",
+            "title":"Streamer",
+            "career_page_article_body01":"버추얼 스트리머 라이버를 모집합니다.<br>",
+            "career_page_article_body02":"요구조건: <br><br>계약형태: 전속계약<br><br>3D 오지리널 캐릭터, 방음부스 시공비 (300만원), 법률 및 회계지원"
+        },
+        {
+            "organization": "Production",
+            "idx": "001",
+            "title":"Character Designer",
+            "career_page_article_body01":"캐릭터 원화가를 모집합니다.<br>",
+            "career_page_article_body02":"요구조건: 미술전문학사 또는 이와 동등한 학력<br><br>임금 300만원 총 참여기간 3개월" 
+        },
+        {
+            "organization": "Production",
+            "idx": "002",
+            "title":"Character illustrator",
+            "career_page_article_body01":"캐릭터 원화가를 모집합니다.<br>",
+            "career_page_article_body02":"요구조건: 미술전문학사 또는 이와 동등한 학력<br><br>임금 300만원 총 참여기간 3개월" 
+        },
+        {
+            "organization": "Production",
+            "idx": "003",
+            "title":"Environments illustrator",
+            "career_page_article_body01":"캐릭터 원화가를 모집합니다.<br>",
+            "career_page_article_body02":"요구조건: 미술전문학사 또는 이와 동등한 학력<br><br>임금 300만원 총 참여기간 3개월" 
+        },
+        {
+            "organization": "Production",
+            "idx": "004",
+            "title":"Technical Artist (Modeling & Texturing)",
+            "career_page_article_body01":"캐릭터 원화가를 모집합니다.<br>",
+            "career_page_article_body02":"요구조건: 미술전문학사 또는 이와 동등한 학력<br><br>임금 300만원 총 참여기간 3개월" 
+        },
+        {
+            "organization": "Production",
+            "idx": "005",
+            "title":"Technical Artist (Rigging & Animation)",
+            "career_page_article_body01":"캐릭터 원화가를 모집합니다.<br>",
+            "career_page_article_body02":"요구조건: 미술전문학사 또는 이와 동등한 학력<br><br>임금 300만원 총 참여기간 3개월" 
+        },
+        {
+            "organization": "Production",
+            "idx": "006",
+            "title":"Technical Artist (Level Designer)",
+            "career_page_article_body01":"게임 레벨디자이너를 모집합니다.<br>",
+            "career_page_article_body02":"요구조건: BS in Game Design, BFA in Game Design, BFA in Interactive Art 또는 이와 동등한 학력 & Unreal Engine 5.3 을 다루는 자<br><br>임금 600만원 총 참여기간 3개월" 
+        },
+        {
+            "organization": "Production",
+            "idx": "007",
+            "title":"Lyricist",
+            "career_page_article_body01":"게임 레벨디자이너를 모집합니다.<br>",
+            "career_page_article_body02":"요구조건: BS in Game Design, BFA in Game Design, BFA in Interactive Art 또는 이와 동등한 학력 & Unreal Engine 5.3 을 다루는 자<br><br>임금 600만원 총 참여기간 3개월" 
+        }   
+    ]
+ }
