@@ -1,7 +1,24 @@
 var socket = io();
-var currentLang = 'ko';
 
 document.addEventListener('DOMContentLoaded', function () {
+    // localStorage에 'language' 설정이 없으면 기본값으로 'ko' 설정
+    if (!localStorage.getItem("language")) {
+        localStorage.setItem("language", "ko");
+    }
+
+    // 언어 변경 버튼에 대한 이벤트 리스너 추가
+    document.getElementById('lang_ko').addEventListener('click', function () {
+        setLanguage("ko");
+    });
+    document.getElementById('lang_en').addEventListener('click', function () {
+        setLanguage("en");
+    });
+
+    // 페이지 로드 시 언어 버튼 스타일과 콘텐츠 업데이트
+    updateLanguageButtonStyles();
+    readAndWrite();
+
+    // 페이지 내비게이션을 위한 이벤트 리스너
     var ids = ['index', 'about', 'CEO_profile', 'mission', 'contact_us', 'artists_notice', 
     'companys_notice', 'creators', 'profile', 'career', 'agency', 'production', 'notice', 'IR', 'shop'];
     
@@ -14,10 +31,9 @@ document.addEventListener('DOMContentLoaded', function () {
             });
         }
     });
-
-    readAndWriteCeoInfo();
 });
 
+// pageload logic
 function hrefLink(page) {
     var pageMap = {
         'index': '../index.html',
@@ -42,40 +58,20 @@ function hrefLink(page) {
     }
 }
 
-function switchLanguage(lang) {
-    currentLang = lang; // Set the current language based on the button clicked
-    updateLanguageButtonStyles(lang); // Update button styles
-    readAndWrite(); // Call the function to update the content based on the current language
+// 선택된 언어로 localStorage 업데이트 및 페이지 업데이트 함수
+function setLanguage(languageOnClick) {
+    localStorage.setItem("language", languageOnClick); // 언어 설정 저장
+    updateLanguageButtonStyles(); // 언어 버튼 스타일 업데이트
+    readAndWrite(); // 콘텐츠 업데이트
 }
 
-function updateLanguageButtonStyles(selectedLang) {
+// 언어 버튼 스타일을 현재 설정된 언어에 따라 업데이트하는 함수
+function updateLanguageButtonStyles() {
     var langKoButton = document.getElementById('lang_ko');
     var langEnButton = document.getElementById('lang_en');
-    
-    if (selectedLang === 'ko') {
-        langKoButton.style.textDecoration = 'underline';
-        langEnButton.style.textDecoration = 'none';
-    } else {
-        langKoButton.style.textDecoration = 'none';
-        langEnButton.style.textDecoration = 'underline';
-    }
+    var currentLang = localStorage.getItem("language"); // 현재 언어 설정 가져오기
+
+    // 현재 언어 설정에 따라 버튼 스타일 조정
+    langKoButton.style.textDecoration = currentLang === "ko" ? 'underline' : 'none';
+    langEnButton.style.textDecoration = currentLang === "en" ? 'underline' : 'none';
 }
-
-document.addEventListener('DOMContentLoaded', function () {
-    // Add event listeners to language buttons
-    document.getElementById('lang_ko').addEventListener('click', function(event) {
-        event.preventDefault();
-        switchLanguage('ko');
-    });
-
-    document.getElementById('lang_en').addEventListener('click', function(event) {
-        event.preventDefault();
-        switchLanguage('en');
-    });
-
-    // Initialize default language button style
-    updateLanguageButtonStyles('ko');
-
-    // Load the default language content on initial page load
-    readAndWrite();
-});
