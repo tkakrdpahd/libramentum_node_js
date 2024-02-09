@@ -92,8 +92,8 @@ function hrefLink(page) {
         'creators': '/html/404.html',
         'profile': '/html/404.html',
         'career': '/html/career.html',
-        'agency': '/html/404.html',
-        'production': '/html/404.html',
+        'agency': '/html/career.html',
+        'production': '/html/career.html',
         'notice': '/html/404.html',
         'IR': '/html/404.html',
         'shop': '/html/404.html'

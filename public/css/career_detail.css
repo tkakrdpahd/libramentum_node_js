@@ -1,20 +1,27 @@
-@media screen and (min-width: 1080px) {
-    .career_detail {
-        margin: 2vw;
-    }
-    .career_detail h2 {
-        font-size: 3.5vw;
-    }
-    .career_detail h3 {
-        margin-left: 2vw;
+.career_detail {
+    margin: 2vw;
+    
+    display: flex;
+    justify-content: center;
+}
+.career_detail_article {
+    text-align: center;
+}
 
-        font-size: 1vw;
+@media screen and (min-width: 1080px) {
+    .career_detail_article h2 {
+        font-size: 2vw;
+        font-weight: 500;
+    }
+    .career_detail_article h3 {
+        font-size: 0.85vw;
         font-weight: 300;
     }
-    .career_detail h4 {
-        margin-left: 2vw;
+    .career_detail_article h4 {
+        width: 27vw;
+        height: auto;
 
-        font-size: 1.25vw;
+        font-size: 1.125vw;
         font-weight: 300;
     }
 }

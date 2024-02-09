@@ -54,7 +54,4 @@ function readAndWrite(organization, idx) {
             }
         })
         .catch(error => console.error('Error:', error)); // 오류 처리
-        
-    delete sessionStorage.organization;
-    delete sessionStorage.idx;
 }
