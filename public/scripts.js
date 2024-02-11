@@ -86,7 +86,7 @@ function hrefLink(page) {
         'about': '/html/about.html',
         'CEO_profile': '/html/404.html',
         'mission': '/html/mission.html',
-        'contact_us': '/html/404.html',
+        'contact_us': '/html/contact_us.html',
         'artists_notice': '/html/404.html',
         'companys_notice': '/html/404.html',
         'creators': '/html/404.html',
