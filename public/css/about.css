@@ -1,0 +1,14 @@
+@media screen and (min-width: 1080px) {
+    .about_article {
+        width: 37vw;
+        height: auto;
+
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .about_article h3 {
+        font-size: 0.95vw; 
+        font-weight: 300;
+    }
+}
