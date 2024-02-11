@@ -33,8 +33,6 @@ function updateLanguageButtonStyles() {
 function setupPageCareer() {
     console.log("called")
     var ids = [
-        'a001', 'a002', // Agency 관련 ID
-        'p001', 'p002', 'p003' // Production 관련 ID 추가
     ];
     
     ids.forEach(function(id) {
