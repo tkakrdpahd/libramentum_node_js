@@ -3,7 +3,7 @@
 body {
     margin: 0;
     padding: 0;
-    margin-top: 12vw;
+    margin-top: 8vw;
 
     background-image: url('/img/Background.jpg');
     background-size: auto;
@@ -11,7 +11,6 @@ body {
 
     font-family: 'Noto Sans KR', sans-serif;
 }
-
 header {
     top: 0;
     left: 0;
@@ -26,84 +25,63 @@ header {
     align-items: flex-start;
     justify-content: space-between;
 }
-
 a {
     text-decoration: none;
-}
-
-/* header common setting */
-.libramentum_logo_text {
-    margin: 0;
-    font-weight: 500;
-}
-.menu_column h2, .menu_column h3 {
-    margin: 0;
-
     color: black;
 }
-
-/* navigation common setting */
-nav {
-    display: flex;
-}
-nav h2:hover, nav h3:hover {
-    color: purple;
-}
-
 footer {
     color: white;
     text-align:center;
 }
-
 @media screen and (min-width: 1080px) {
     /* header general setting */
     .main_logo_set {
         display: flex;
         align-items: center;
+
         gap: 0.5vw;
     }
-
-    .libramentum_logo {
+    .main_logo_set img {
         width: 1.8vw;
         height: auto;
     }
+    .main_logo_set h1 {
+        margin: 0;
+        padding: 0;
 
-    .libramentum_logo_text {
         font-size: 0.75vw;
-        color:black;
+        font-weight: 500;
     }
 
-    .menu_column {
-        padding-right: 6.5vw;
-        padding-top: 0.5vw;
-
+    /* nav setting */
+    .navigation_bar {
+        display: flex;
         text-align: center;
-    }
 
-    .menu_column h2 {
-        font-size: 0.9vw;
-        padding-bottom: 1vw;
+        text-decoration:none;
+        color: black;
     }
-
-    .menu_column h3 {
+    .navigation_bar div {
+        padding-right: 4.5vw;
+    }
+    .navigation_bar h2, h3 {
         font-size: 0.75vw;
-        font-weight: 300;
-
-        padding-top: 0.5vw;
     }
+    nav h2:hover, nav h3:hover {
+        color: purple;
+    }
+    .navigation_bar h2 {
+        margin: 0;
+        padding-top: 0.25vw;
+        padding-bottom: 1vw;
 
-    .lang_button {
-        width: auto;
-        height: 2vw;
+        font-weight: 500;
+    }
+    .navigation_bar h3 {
+        margin: 0;
+        padding: 0;
 
-        font-size: 0.9vw;
-        font-weight: 400;
-
-        background-color:transparent;
-
-        margin-top: 2vw;
-
-        border: none;
+        font-weight: 300;
     }
 
     /* page article, title body setting */

@@ -1,0 +1,18 @@
+.lang_button_set button {
+    width: 5vw;
+    height: 1.5vw;
+
+    margin-top: 1vw;
+
+    color: black;
+    background-color: #fff;
+
+    border-style: solid;
+    border-color: black;
+
+    animation: shiny-btn1 3s ease-in-out infinite;
+}
+.lang_button_set button:hover {
+    background: #000;
+    color: #fff;
+}
