@@ -1,0 +1,25 @@
+.career_detail {
+    text-align: center;
+}
+.career_detail div {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.career_detail h2 {
+    display: none;
+}
+.career_detail h3 {
+    margin-right: 0.5vw;
+    font-size: 1vw;
+}
+.career_detail h4 {
+    font-size: 2vw;
+}
+.career_detail h5 {
+    margin-left: 30vw;
+    text-align: left;
+}

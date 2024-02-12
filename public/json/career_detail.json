@@ -1,11 +1,16 @@
 {
     "ko": [
         {
-            "organization": "Agency",
-            "idx": "001",
-            "title": "매니저",
-            "career_page_article_body01": "스트리머 매니저를 모집합니다.<br><br>직무: 라이버 일정 관리 및 실시간 방송 관리<br>채용인원: 1명<br>",
-            "career_page_article_body02": "요구조건: 없음<br><br>계약형태: 정규직, 4대보험 제공<br><br>월급: 세전 2,100,000원"
+                "idx": "001",
+                "organization": "agency",
+                "title": "매니저",
+                "career_page_article_body01": "직무",
+                "career_page_article_body02": "학위",
+                "career_page_article_body03": "사용 툴",
+                "career_page_article_body04": "채용인원",
+                "career_page_article_body05": "계약형태",
+                "career_page_article_body06": "임금",
+                "career_page_article_body07": "참여기간"
         },
         {
             "organization": "Agency",
