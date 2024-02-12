@@ -1,0 +1,30 @@
+{
+    "ko": [
+        {
+            "idx": "001",
+            "organization": "agency",
+            "title": "매니저",
+            "career_page_article_body01": "직무",
+            "career_page_article_body02": "학위",
+            "career_page_article_body03": "사용 툴",
+            "career_page_article_body04": "채용인원",
+            "career_page_article_body05": "계약형태",
+            "career_page_article_body06": "임금",
+            "career_page_article_body07": "참여기간"
+        }
+    ],
+    "en": [
+        {
+            "idx": "001",
+            "organization": "agency",
+            "title": "Manager",
+            "career_page_article_body01": "직무",
+            "career_page_article_body02": "학위",
+            "career_page_article_body03": "사용 툴",
+            "career_page_article_body04": "채용인원",
+            "career_page_article_body05": "계약형태",
+            "career_page_article_body06": "임금",
+            "career_page_article_body07": "참여기간"
+        }
+    ]
+}
