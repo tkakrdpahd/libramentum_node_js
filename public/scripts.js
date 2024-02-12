@@ -6,8 +6,6 @@ function initializePage() {
     headerNav();
     if( typeof setupPageCareer == 'function' ) {
         setupPageCareer();
-    } else {
-        
     }
 }
 
