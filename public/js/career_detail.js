@@ -29,9 +29,10 @@ function updateLanguageButtonStyles() {
     readAndWrite(sessionStorage.getItem("organization"), sessionStorage.getItem("idx"));
 }
 
-function readAndWrite(organization, idx) {
-
-    fetch("../json/career_detail.json") // JSON 파일 위치
+function readAndWrite() {
+    var idx = '001';
+    var organization = 'agency';
+    fetch("./career_detail.json") // JSON 파일 위치
         .then(response => response.json()) // 응답을 JSON으로 변환
         .then(json => {
             const language = localStorage.getItem("language"); // 현재 언어 설정 가져오기
@@ -40,10 +41,21 @@ function readAndWrite(organization, idx) {
             let contentFound = false; // 조건에 맞는 콘텐츠를 찾았는지 여부를 나타내는 플래그
             json[language].forEach(content => {
                 if (content.organization === organization && content.idx === idx) { // 조직과 idx가 매개변수와 일치하는 경우
-                    // 페이지 요소에 콘텐츠 삽입
-                    document.getElementById("idx").innerText = "Job number: " + content.idx;
-                    document.getElementById("career_detail_title").innerText = content.title;
-                    document.getElementById("career_detail_article").innerHTML = content.career_page_article_body01 + "<br>" + content.career_page_article_body02;
+                    // 페이지 요소에 기본 콘텐츠 삽입
+                    document.getElementById("idx").innerText = content.idx;
+                    document.getElementById("organization").innerText = content.organization;
+                    document.getElementById("title").innerText = content.title;
+
+                    // content 객체의 나머지 속성 순회
+                    Object.entries(content).forEach(([key, value]) => {
+                        if (!["idx", "organization", "title"].includes(key)) { // 기본 키를 제외한 속성에 대해 처리
+                            const element = document.createElement('h5');
+                            element.id = `${key}`; // 백틱(`)을 사용하여 문자열 템플릿을 적용
+                            element.innerText = value;
+                            document.querySelector('.career_detail').appendChild(element); // '.career_detail' 클래스를 가진 요소를 찾아 그 안에 새 요소를 추가
+                        }
+                    });
+
                     contentFound = true; // 조건에 맞는 콘텐츠를 찾음
                 }
             });
